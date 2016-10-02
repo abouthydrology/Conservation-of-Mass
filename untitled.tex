@@ -5,4 +5,26 @@
 Mechanics (but this is only a perspective on the matter: others can be obtained by using \href{https://en.wikipedia.org/wiki/Legendre_transformation}{Legendre transformations} usually subdivides energy in three components, kinetic, potential; thermodynamics adds internal  energy and usually separates it in thermal, mechanical work, and chemical energy.
 \begin{equation}
 E = U  + K + V = (E_T + E_W + E_C) + K + V
+\label{e_cons}
 \end{equation}
+wher $E$ is the total energy, $K$ is Kinetic energy, $V$ is potential energy, $E_T$ is thermal energy, $E_W$ is work, $E_C$ is chemical energy. Is this total energy which is conserved, while no one of the other is alone, and up to a certain amount each one of the five terms that compare on the r.h.s. of equation (\ref{e_ref}) can dynamically exchange energy amounts with the others with certain limitations. 
+History of thermodynamics is the history of which are these limitations. To be more precise, more than about energy, in itself any dynamics is interested in its variation in time, and the absolute value of energy is define up to a constant. 
+Regarding the three terms in U, their time variation is decomposed in:
+\begin{equation}
+\frac{dE_T(\,)}{dt} = T \frac{dS(\,)}{dt}
+\lable{ET}
+\end{equation}
+where $T$ is the quantity usually know as temperature [CITE Dall'Amico, 2010], and $S(\,)$ is known as entropy. Parentheses indicate that entropy, in this view $S$ is a function of some other variable. Besides, 
+\begin{equation}
+\frac{dE_W(\,)}{dt} = - p \frac{dV(\,)}{dt}
+\lable{EW}
+\end{equation}
+where $p$ is the pressure that the system exerts on the rest of the world, and $V$ is its volume. 
+Finally
+\begin{equation}
+\frac{dE_C(\,)}{dt} = \sum_i^k \mu_i \frac{dN_i(\,)}{dt}
+\lable{EC}
+\end{equation}
+where the index $i$ covers all the chemical constituents (phases) of the system, $\mu_i$ is called chemical potential, and $N_i$ is the number of elementary constituents (molecules) of the systems.
+Internal energy $U$ embeds internal form of kinetic and potential energy. 
+
