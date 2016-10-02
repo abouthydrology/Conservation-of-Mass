@@ -7,3 +7,8 @@ The rate of change of the mass of component $k$ within a given volume $V$ is:
 \label{dGM1}
 \end{equation}
 eher $\rho_K$ is the density (mass per unit of volume) of $k$. This quantity id equal to the sum of the material flow of component $k$ into the volume $V$ though its surface $\vec{\Omega}$ and the total production of $k$ in chemical reactions which occor inside $V$
+\begin{equation}
+\int^V \frac{\partial \rho_k}{\partial t}\, dV = - \int^\vec{\Omega} \rho_k\, v_k \cdot d\vec{\Omega} + \sum_{j=1}^r \int^V \nu_k J_i\, dV
+\label{dGM2}
+\end{equation}
+where $d\vec{\Omega}$ is a vector with magnitude d\Omega normal to the surface and counted positive from the inside to the outside. Furthermore $v_k$ is the velocity of $k$ and $v_{kj} J_j$  the production of $k$ per unit volume in the $j^{th}$ chemical reaction.  
