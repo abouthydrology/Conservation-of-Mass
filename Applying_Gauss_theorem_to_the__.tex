@@ -1,0 +1,23 @@
+"Applying Gauss' theorem to the surface integral occurring in (\ref{dGM2}), we obtain:
+\begin{equation}
+\frac{\partial \rho_k}{\partial t} = - \div \rho_k v_k + \sum_{j=1}^r \vu_{kj} J_j,
+\label{dGM3}
+\end{equation}
+since (\ref{dGM2}) is valid for any arbitrary volume V. This equation has the form of a so-called balance equation: the local change of the l.h.s. is equal to the negative divergence of the flow of $k$ and a source term giving the (production or destruction) of substance $k$.
+Since the mass is conserved in each separate chemical reaction we have
+\begin{equation}
+\sum_{k=1}^n \nu_{kj}= 0 
+\end{equation}
+Summing equation $\ref{dGM3}$ over all substances $k$, one obtains then the {\it law of conservation of mass}:
+\begin{equation}
+\frac{\partial \rho}{\partial t} = - \dev \rho \vec{v}
+\label{dGM5}
+\end{equation}
+where $\rho$ is the total density
+\begin{equation}
+\rho = \sum_{k=1}^n \rho_k
+\end{equation}
+and $\vec{v}$ the centre of mass ("barycentric") velocity
+\begin{equation}
+\vec{v} = \frac{1}{\rho} \sum_{k=1}^n \rho_k v_k.
+\end{equation}
