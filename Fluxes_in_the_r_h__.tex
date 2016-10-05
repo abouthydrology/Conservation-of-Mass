@@ -1,5 +1,12 @@
 Fluxes in the r.h.s member of (\ref{dGM2}) can be, obbiously seen also at the integrated scale, where we have then:
 \begin{equation}
-\frac{dM_k}{dt} = Q_{in} - Q_{out} + sum_{j=1^r} \langle\nu \rangle_{ki} J_i
+\frac{dM_k}{dt} = Q_k^{in} - Q_k^{out} + sum_{j=1^r} \langle\nu \rangle_{ki} \langle J_i \rangle
 \end{equation}
-where $\langle\nu \rangle_{ki}$ represent a spatially averaged value of $\nu_{ki}$.
+where $Q^{in}$ are the mass fluxes entring the control volume and $Q^{out}$ the fluxes exiting, \langle\nu \rangle_{ki}$ represent a spatially averaged value of $\nu_{ki}$ and \langle J_i \rangle a spatially average reaction rate.
+The identification 
+\begin{equation}
+- \int^\vec{\Omega} \rho_k\, v_k \cdot d\vec{\Omega} = Q_k^{in} - Q_k^{out}
+\end{equation}
+and 
+\langle\nu \rangle_{ki} \langle J_i \rangle = \sum_{j=1}^r \int^V \nu_{ki} J_i\, dV
+is quite obvious, and matter of convenient representation at the coarse grained scale. 
