@@ -13,13 +13,19 @@ and the "diffusion flow" of substance $k$ defined with respect to the barycentri
 With the help of (\ref{dGM8}) and (\ref{dGM9}), equations (\ref{dGM3}) become
 \begin{equation}
 \frac{d \rho_k}{dt} = - \rho_k \nabla \cdot \vec{v} - \nabla \cdot \vec{J}_k + \sum_{j=1}^r \nu_{kj} J_j
+\label{dGM10}
 \end{equation}
 and equation (\ref{dGM5})
 \begin{equation}
 \frac{d \rho}{dt} = - \rho \nabla \cdot \vec{v}
+\label{dGM11}
 \end{equation}
 If mass fractions $c_k$:
 \begin{equation}
 c_k := \frac{\rho_k}{\rho} \ \ \ \left( \sum_{k=1}^n c_k =1 \right)
 \end{equation}
-are employed, equations (\ref{10}) take the simple form
+are employed, equations (\ref{dGM10}) take the simple form
+\begin{equation}
+\rho \frac{dc_k}{dt} = - \nabla \cdot \vec{J}_k + \sum_{j=1}^r v_{kj} J_j
+\end{equation}
+where (\ref{dGM11}) has been used also.
